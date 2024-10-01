@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Fundo branco */
+    color: #ffffff; /* Texto branco */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8); /* Preto com opacidade */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Links em branco */
+    transition: color 0.3s; /* Transição suave para a cor */
+}
+
+nav ul li a:hover {
+    color: #e0e0e0; /* Alterar a cor do link ao passar o mouse */
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgba(30, 30, 30, 0.9); /* Cinza escuro semi-transparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.item {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ffffff; /* Borda branca */
+    border-radius: 5px;
+    display: flex;
+    align-items: center; /* Alinha imagem e texto */
+}
+
+.item img {
+    max-width: 100px; /* Limita a largura da imagem */
+    margin-right: 15px; /* Espaçamento entre imagem e texto */
+    border-radius: 5px; /* Cantos arredondados nas imagens */
+}
+
+.item h3 {
+    margin: 0;
+    color: #ffffff; /* Título em branco */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8); /* Preto com opacidade */
+    color: #ffffff; /* Texto branco */
+    margin-top: 20px;
+}
+
+
+
+

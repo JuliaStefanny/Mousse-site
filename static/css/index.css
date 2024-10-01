@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../static/css/img/plano_fudo-site.jpg'); /* Adicione sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    color: #f0f0f0; /* Texto claro para contraste */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8); /* Preto com opacidade */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Sombra para destaque */
+}
+
+header h1 {
+    margin: 0;
+    color: #ffffff; /* Título em branco */
+    font-size: 2.5em; /* Aumenta o tamanho do título */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Links em branco */
+    font-weight: bold; /* Negrito para os links */
+    transition: color 0.3s; /* Transição suave para a cor */
+}
+
+nav ul li a:hover {
+    color: #f0f0f0; /* Alterar a cor do link ao passar o mouse */
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto; /* Centraliza as seções */
+    max-width: 800px; /* Limita a largura das seções */
+    background-color: rgba(30, 30, 30, 0.9); /* Cinza escuro semi-transparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.produto {
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #ffffff; /* Borda branca */
+    border-radius: 5px;
+    transition: transform 0.3s; /* Transição suave */
+}
+
+.produto:hover {
+    transform: scale(1.02); /* Efeito de zoom ao passar o mouse */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8); /* Preto com opacidade */
+    color: #ffffff; /* Texto branco */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Espaço acima do rodapé */
+}
